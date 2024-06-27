@@ -1,15 +1,46 @@
 .song-div {
-	background: red;
+	background: tomato;
+	color: white;
 }
 
 .poem {
 	animation: mymove 50s infinite;
+	background: #ffff63;
+	color: black;
+}
+
+.hello {
+	background: #69003a;
+	color: white;
+}
+
+.panda_chapter {
+	background: #228fe3;
+	color: white;
 }
 
 @keyframes mymove {
 	50% {
 		transform: rotate(180deg);
 	}
+}
+
+.transforming-dot {
+
+	height: 25px;
+	width: 25px;
+	background-color: yellowgreen;
+	border-radius: 50%;
+	display: inline-block;
+	animation: move-dot 5s infinite
+}
+
+@keyframes move-dot {
+	50% {
+		border-radius: 0%;
+		background-color: red;
+	}
+
 }
 
 .flex-container {
@@ -29,13 +60,10 @@
 }
 
 .flex-item {
-	background-color: tomato;
 	padding: 5px;
 	margin: 10px;
-	color: white;
 	text-align: center;
 }
-
 
 header {
 	background: #5aab1d;
