@@ -106,7 +106,15 @@ body {
 
 }
 
+.projects-header {
+	background: #ffac4d;
+	color: white;
+}
 
+.project {
+	width: 300px;
+	border: 1px solid blue;
+}
 
 .transforming-dot {
 
