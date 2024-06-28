@@ -84,6 +84,11 @@ body {
 	color: white;
 }
 
+
+.project {
+	background: rgba(255, 255, 255, 0.7);
+}
+
 .panda_chapter {
 	background: #228fe3;
 	color: white;
