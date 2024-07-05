@@ -170,5 +170,21 @@ body {
 header {
 	background: #5aab1d;
 	color: white;
+	text-shadow: 0 0 5px black;
 	text-align: center;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 5px black;
+	font-size: 0.7em;
+}
+
+footer a:link {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
 }
